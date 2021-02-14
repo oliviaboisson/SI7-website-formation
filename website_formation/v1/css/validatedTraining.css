@@ -1,0 +1,29 @@
+.validBox{
+	padding: 2em;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.label, .select, .button{
+	display: flex;
+}
+
+.label{
+	margin-top: 3em;
+}
+
+.listBox--container{
+    border: 1px solid #ccc;
+	font-style: italic;
+}
+
+.button{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: 0.4em 0.7em 0.4em 0.7em;
+	text-transform: uppercase;
+	color: white;
+	background: rgba(90, 120, 255);
+	border: none;
+	border-radius: 3px;
+}

@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+
+.headerDiv, .headerNav, .headerUl, .headerLi, .headerLink{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.headerDiv{
+	position: fixed;
+	height: 5vw;
+	width: 100%;
+	background: white;
+	box-shadow: 0em 0.1em 1em grey;
+}
+
+.menu{
+	width: 50%;
+	margin:2%;
+}
+
+.authentication{
+	display: flex;
+	justify-content: flex-end;
+	width:50%;
+	margin:2%;
+}
+
+.menu, .headerLink{
+	margin-right: 0.5em;
+}
+
+.headerUl{
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+
+.headerLink:hover{
+	color:orange;
+	box-shadow: 0em 0.2em 0em orange;
+}
+
+.headerLink{
+	color: green;
+	text-decoration: none;
+}
+
+.imgLogin{
+	height: 1.2em;
+	width: 1.5em;
+}
+
+/* PAGE */
+
+.page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 2%;
+	margin-top: 10vw;
+}
+
+t1{
+	font-size: 2em;
+	color: green;
+	box-shadow: 0em 0.1em 0em green;
+}
+
+t2{
+	margin-top: 1em;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+p{
+	text-align: justify;
+}

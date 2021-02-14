@@ -1,0 +1,23 @@
+.trainingBox1{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: white;
+}
+
+.trainingContent1{
+	width: 70%;
+	padding: 2%;
+}
+
+.trainingBox2{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: rgba(90, 120, 255, 0.6); /* blue */
+}
+
+.trainingContent2{
+	width: 70%;
+	padding: 2%;
+}
